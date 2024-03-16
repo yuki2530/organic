@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8">
+        <title>organic cosmetics</title>
+        <meta name="description" content="ヘルシーでオーガニック化粧品を提供">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/logo_q04.png">
+    </head>
+
+    <body>
+        <div id="home" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/12png.png" alt="オーガニックホーム"></a></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="menu.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="home-content wrapper">
+            <h2 class="page-title">A Moment of Everyday Life</h2>
+            <p>肌の内側からハリを与える。オーガニックコスメでもっと綺麗な自分へ。</p>
+            <a class="button" href="menu.html">商品を見る</a>
+        </div>
+    </div><!-- /#home -->
+
+    <!--ネットから引っ張ってきた部分-->
+<!--
+    <div id="cards">
+        <div class="card">
+<div class="picture"><img src="images/117.jpg" alt="" /></div>
+        <div class="description">
+            <p>
+                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+            </p>
+        </div>
+        </div>
+        <div class="card" id="card-center">
+            <div class="picture"><img src="images/114.jpg" alt="" /></div>
+            <div class="description">
+                <p>
+                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="picture"><img src="images/119.jpg" alt="" /></div>
+            <div class="description">
+                <p>
+                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                </p>
+            </div>
+        </div>
+        </div>
+-->
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<style>
+    .slider{
+        width:70%;
+        margin:0 auto;
+    }
+    .slider img{
+        width:100%;
+    }
+    .slider .slick-slide{
+        height:auto!important;
+    }
+    .slider .slick-arrow{
+        z-index:2!important;
+    }
+    .slider .slick-next{
+        right:0!important;
+    }
+    .slider .slick-prev{
+        left:0!important;
+    } 
+</style>
+
+<div class="slider">
+    <div><img src="images/117.jpg"></div>
+    <div><img src="images/114.jpg"></div>
+    <div><img src="images/119.jpg"></div>
+</div>
+
+<script>
+        $('.slider').slick({
+            autoplay: true,         //自動再生
+            dots: true,             //ドット
+            infinite: true,         //ループ
+            pauseOnHover: false,    //ホバーで止めない
+            autoplay: true,
+            dots: true,
+            infinite: true,
+            pauseOnHover: false,
+            centerMode: true,        //追記
+            centerPadding: "20%",    //追記
+})
+</script>
+<!--ここまで-->
+<footer>
+    <div class="wrapper">
+        <p><small>&copy; 2023 organic box</small></p>
+    </div>
+</footer>
+    </body>
+</html>
