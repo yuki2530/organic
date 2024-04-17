@@ -52,6 +52,7 @@ img {
 .home-content p {
     font-size: 1.125rem;
     margin: 10px 0 42px;
+    text-shadow: 1px 1px 1px #ffffff;
 }
 /* 見出し */
 .page-title {
@@ -59,6 +60,7 @@ img {
     font-family:  'Noto Serif JP', sans-serif;
     text-transform: uppercase;
     font-weight: normal;
+    text-shadow: 2px 3px 2px #ffffff;
 }
 
 /* ボタン */
